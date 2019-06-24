@@ -1158,6 +1158,13 @@ footer {
     margin-top: 40px; } }
 
 @media (max-width: 515px) {
+  .popup-wrap {
+    width: 100vw!important;
+    height: 100vh!important;
+  }
+  .popup-wrap h4 {
+    text-align: center
+  }
   .about-text a {
     display: block;
   }
