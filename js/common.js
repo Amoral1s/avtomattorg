@@ -62,7 +62,60 @@ $(".toggle5").click(function() {
   $(".open1, .open2, .open3, .open4").removeClass('list__open');
  });
 
-
+ $(".image-1").click(function() {
+  if ($(".image1-open").is(":visible")) {
+        $(".image1-open").fadeOut(600);
+        
+  } else {
+    $(".image1-open").fadeIn(600);
+  };
+  
+});
+ $(".image1-open").click(function() {
+  if ($(".image1-open").is(":visible")) {
+        $(".image1-open").fadeOut(600);
+        
+  } else {
+    $(".image1-open").fadeIn(600);
+  };
+  
+});
+ $(".image-2").click(function() {
+  if ($(".image2-open").is(":visible")) {
+        $(".image2-open").fadeOut(600);
+        
+  } else {
+    $(".image2-open").fadeIn(600);
+  };
+  
+});
+ $(".image2-open").click(function() {
+  if ($(".image2-open").is(":visible")) {
+        $(".image2-open").fadeOut(600);
+        
+  } else {
+    $(".image2-open").fadeIn(600);
+  };
+  
+});
+$(".image-3").click(function() {
+  if ($(".image3-open").is(":visible")) {
+        $(".image3-open").fadeOut(600);
+        
+  } else {
+    $(".image3-open").fadeIn(600);
+  };
+  
+});
+ $(".image3-open").click(function() {
+  if ($(".image3-open").is(":visible")) {
+        $(".image3-open").fadeOut(600);
+        
+  } else {
+    $(".image3-open").fadeIn(600);
+  };
+  
+});
 
 
 });

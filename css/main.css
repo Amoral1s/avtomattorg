@@ -508,7 +508,36 @@ body {
       margin-top: 30px;
       margin-bottom: 30px;
       opacity: 0.5; }
-
+.image1-open, .image2-open, .image3-open {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+  padding-top: 10vh;
+  z-index: 99999999;
+  display: none;
+}
+.image1-open img, .image2-open img {
+  max-height: 70vh;
+  max-width: 90vw;
+  margin: auto;
+  
+}
+.image3-open img {
+  max-height: 70vh;
+  max-width: 90vw;
+  margin: auto;
+  
+}
+.image1-open img:hover, .image2-open img:hover, .image3 img:hover {
+  cursor: pointer;
+  
+}
 .about {
   min-height: 600px;
   background-color: #000;
@@ -548,6 +577,16 @@ body {
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
+    color: #b8d620;
+    font-family: "Conv_Fontfabric - MullerBold", sans-serif; }
+  .about img {
+    height: 150px;
+    margin-bottom: 30px;
+    margin-right: 20px; }
+  .about img:hover {
+    cursor: pointer; }
+  .about h4 {
+    font-size: 22px;
     color: #b8d620;
     font-family: "Conv_Fontfabric - MullerBold", sans-serif; }
   .about p {

@@ -12,12 +12,12 @@ $email = $_POST['user_email'];
 $mail->isSMTP();                                      
 $mail->Host = 'smtp.mail.ru';  																							
 $mail->SMTPAuth = true;                             
-$mail->Username = ''; // Ваш логин от почты с которой будут отправляться письма, почта от хостинга
-$mail->Password = ''; // Ваш пароль от почты с которой будут отправляться письма, пароль от посты хостинга
+$mail->Username = 'avtomattorginfo@mail.ru'; // Ваш логин от почты с которой будут отправляться письма, почта от хостинга
+$mail->Password = 'infoWebFree'; // Ваш пароль от почты с которой будут отправляться письма, пароль от посты хостинга
 $mail->SMTPSecure = 'ssl';                            
 $mail->Port = 465; 
 
-$mail->setFrom(''); // от кого будет уходить письмо? Снова ввести почту хостинга
+$mail->setFrom('avtomattorginfo@mail.ru'); // от кого будет уходить письмо? Снова ввести почту хостинга
 $mail->addAddress('sv.avtomattorg@yandex.ru');     // Кому будет уходить письмо Ваш емаил на яндексе, уже ввел
 
 $mail->isHTML(true);                                  
