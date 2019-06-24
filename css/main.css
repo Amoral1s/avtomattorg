@@ -1158,6 +1158,10 @@ footer {
     margin-top: 40px; } }
 
 @media (max-width: 515px) {
+  .about-text {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
   .popup-wrap {
     width: 100vw!important;
     height: 100vh!important;
@@ -1172,8 +1176,8 @@ footer {
     margin-bottom: -30px;
   }
   .contact-about-text {
-    -ms-flex-preferred-size: 90%;
-        flex-basis: 90%; }
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
     .contact-about-text a {
       font-size: 16px;
       margin-left: 10px;
@@ -1260,6 +1264,12 @@ footer {
     top: 28px; } }
 
 @media (max-width: 437px) {
+  .contact-about-button span {
+    width: 100%;
+    padding: 20px 8px !important; }
+  .button span {
+    width: 100%;
+    padding: 20px 8px !important; }
   .photo-logo h2 {
     font-size: 20px;
   }
@@ -1297,12 +1307,7 @@ footer {
 @media (max-width: 375px) {
   .product-cup-in:nth-child(2) li:nth-child(1) {
     padding: 9px 0 9px 5px; }
-    .contact-about-button {
-      width: 100%;
-      padding: 20px 20px 20px 20px !important; }
-    .button {
-      width: 100%;
-      padding: 20px 20px 20px 20px !important; }
+    
    }
 
 @media (max-width: 360px) {
